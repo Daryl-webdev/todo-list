@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 
 //==================================Data base connection========================================
-mongoose.connect(process.env.DB_CONNECTION,{
+mongoose.connect("mongodb+srv://daryl:marklyrad24@grimaldo-b121.pnyea.mongodb.net/My-todolist",{
   useNewUrlParser: true,
   useUnifiedTopology: true
  })
