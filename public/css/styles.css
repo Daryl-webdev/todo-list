@@ -58,6 +58,10 @@ p {
   font-weight: 200;
   color: #00204a;
 }
+.footer{
+  text-align: center;
+  margin: 50px auto;
+}
 .delete-icon {
   height: 100%;
   border: none;
@@ -131,6 +135,7 @@ footer {
   }
 
   #heading {
+    margin-bottom: 20px; 
     margin-top: 50px;
   }
   .box {
