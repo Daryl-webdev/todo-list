@@ -4,10 +4,10 @@
   "description": "This allowed you to list all the items/tasks that you want to accomplish for your day to day activities.",
   "main": "app.js",
   "dependencies": {
+    "bl": "^2.2.1",
     "bluebird": "^3.5.1",
     "body-parser": "^1.19.0",
     "bson": "^1.1.6",
-    "bl": "^2.2.1",
     "core-util-is": "^1.0.2",
     "denque": "^1.5.0",
     "dotenv": "^10.0.0",
@@ -33,7 +33,6 @@
     "string_decoder": "^1.1.1",
     "util-deprecate": "^1.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
