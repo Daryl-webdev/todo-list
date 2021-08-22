@@ -4,9 +4,7 @@ const ejs = require("ejs");
 const mongoose = require('mongoose')
 const _ = require('lodash')
 
-
 const app = express();
-
 
 app.set("view engine", "ejs");
 
